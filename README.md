@@ -3,3 +3,10 @@
 ```
 git clone https://github.com/AceOfSpadesCard/PDT-CodeBase /path/to/destination
 ```
+
+2. Configure the aci_deploy.xls spreadhseet using Microsoft Excel to your preferences
+
+3. Run the program through the terminal with the command
+```
+python3 main52.py
+```

@@ -1,0 +1,31 @@
+    {
+      "fvSubnet": {
+        "attributes": {
+          "ctrl": "no-default-gateway",
+          "dn": "uni/tn-{{tenant}}/ap-{{ap_name}}/epg-{{epg}}/subnet-[{{vip}}/32]",
+          "ip": "{{vip}}/32",
+          "ipDPLearning": "enabled",
+          "preferred": "no",
+          "scope": "{{scope}}",
+          "virtual": "yes"
+        },
+        "children": [
+          {
+            "fvEpReachability": {
+              "attributes": {
+                "annotation": ""
+              },
+              "children": [
+                {
+                  "ipNexthopEpP": {
+                    "attributes": {
+                      "nhAddr": "{{nhaddr}}"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }

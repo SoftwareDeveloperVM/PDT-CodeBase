@@ -1,0 +1,13 @@
+{
+  "infraRsFuncToEpg": {
+    "attributes": {
+      "annotation": "",
+      "dn": "uni/infra/attentp-{{name}}/gen-default/rsfuncToEpg-[uni/tn-{{tenant}}/ap-{{ap_name}}/epg-{{epg}}]",
+      "encap": "vlan-{{encap}}",
+      "instrImedcy": "{{deploy}}",
+      "mode": "{{mode}}",
+      "primaryEncap": "vlan-{{encap}}",
+      "tDn": "uni/tn-{{tenant}}/ap-{{ap_name}}/epg-{{epg}}"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+      "datetimeFormat": {
+        "attributes": {
+          "displayFormat": "local",
+          "dn": "uni/fabric/format-default",
+          "name": "default",
+          "tz": "{{tz}}"
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "isisDomPol": {
+    "attributes": {
+      "descr": "",
+      "dn": "uni/fabric/isisDomP-default",
+      "mtu": "{{mtu}}",
+      "name": "default",
+      "nameAlias": "",
+      "ownerKey": "",
+      "ownerTag": "",
+      "redistribMetric": "{{metric}}"
+    }
+  }
+}

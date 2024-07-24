@@ -3,5 +3,5 @@ requests
 xlrd
 xlwt
 xlutils
-orderedset
+ordered_set
 jinja2

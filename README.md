@@ -1,12 +1,18 @@
 # PDT Installation Guide
-1. Clone the repository in your desired empty folder
-```
-git clone https://github.com/SoftwareDeveloperVM/PDT-CodeBase /path/to/destination
-```
+## First create virtual python entity in your terminal:
+Commands: ```mkdir PDT``` ```cd New_Venv``` ```python3 -m venv New_Venv``` ```cd New_Venv```
 
-2. Configure the aci_deploy.xls spreadhseet using Microsoft Excel to your preferences
+## Clone PDT files from GitHub:
+Commands: ```git clone https://github.com/SoftwareDeveloperVM/PDT-CodeBase```
 
-3. Run the program through the terminal with the command
-```
-python3 main52.py
-```
+### Then go into directory:
+```cd PDT-CodeBase```
+
+### Install requirments.txt file:
+```pip3 install -r requirements.txt```
+
+### If you see issue with pkg_resources error, use command:
+```pip install setuptools```
+
+### Then you can run your program and enter the required fields
+```python3 main52.py```

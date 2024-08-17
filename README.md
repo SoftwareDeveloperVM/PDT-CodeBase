@@ -1,6 +1,6 @@
 # PDT Installation Guide
 ## First create virtual python entity in your terminal:
-Commands: ```mkdir PDT``` ```cd New_Venv``` ```python3 -m venv New_Venv``` ```cd New_Venv```
+Commands: ```mkdir PDT```  ```python3 -m venv New_Venv``` ```cd New_Venv```
 
 ## Clone PDT files from GitHub:
 Commands: ```git clone https://github.com/SoftwareDeveloperVM/PDT-CodeBase```
